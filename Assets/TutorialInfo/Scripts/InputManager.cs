@@ -6,7 +6,7 @@ public class InputManager : MonoBehaviour
     public UnityEvent<Vector2> OnMove = new UnityEvent<Vector2>();
     public UnityEvent OnSpacePressed = new UnityEvent();
     
-    void Update()
+    private void Update()
     {
        if (Input.GetKeyDown(KeyCode.Space))
        {
